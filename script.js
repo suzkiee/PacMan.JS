@@ -1,3 +1,4 @@
+//Code written by instructors 
 var pos = 0 
 let pageWidth = window.innerWidth;
 
@@ -24,10 +25,12 @@ function Run(){
   }
 }
 
+//code by me
 function clickListener(){
   setInterval(Run, 200)
 }
 
+//code by me
 function checkPageBounds(direction, imgWidth, pos, pageWidth){
   if (pos >= pageWidth){
     direction = 1;
